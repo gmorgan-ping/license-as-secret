@@ -61,3 +61,11 @@ spec:
           requests:
             cpu: "1"
             memory: 1.5Gi
+        volumeMounts:
+          - mountPath: "/opt/in/instance/server/default/conf"
+            name: product-license-volume
+            readOnly: false
+      volumes:
+        - name: product-license-volume
+          secret:
+            secretName: pingfederate-license

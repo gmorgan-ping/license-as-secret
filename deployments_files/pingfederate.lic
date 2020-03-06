@@ -1,0 +1,14 @@
+ID=1606993
+Product=PingFederate
+Version=10.0
+IssueDate=2020-02-21
+Tier=Free
+ExpirationDate=2020-03-22
+EnforcementType=7
+SaasProvisioning=true
+TEST=SAMIR
+WSTrustSTS=true
+OAuth=true
+Generator=WebAPI
+SignCode=FF07
+Signature=302C021448E999B4FEA6A8C8CC28289CF0B5614CF878C39102143071022E7BC26583857BADD706D2E5925E68D413
