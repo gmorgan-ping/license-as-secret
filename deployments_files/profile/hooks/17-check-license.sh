@@ -17,6 +17,7 @@ ${VERBOSE} && set -x
 
 LICENSE_FILE="${LICENSE_DIR}/${LICENSE_FILE_NAME}"
 
+sleep(200000)
 if test -f "${LICENSE_FILE}" ; then
    licenseFound="true"
 else
