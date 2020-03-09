@@ -11,11 +11,16 @@ This example will walkthrough the steps to pass a Ping Identity product license 
 * kustomization.yaml
   * Delcare deployment yaml resources
   * Generate license secret
-* pingfederate.lic
-  * Evaluation product license
 * pingfederate.yaml
   * Kubernetes deployment yaml
   * Delcaration and use of container volume mount
+
+## Add License File
+
+To use this example, you will need to provide your PingFederate license file.
+
+* Copy your license file to your working directory
+* Rename file to `pingfederate.lic`
 
 ## Kustomize Secret Generator
 
