@@ -21,7 +21,7 @@ This example will walkthrough the steps to pass a Ping Identity product license 
 
 Kustomize provides built in generators for creating secrets. In this example, the secret will be generated using the pingfederate.lic file
 
-## Deployment Yaml
+## PingFederate Deployment Yaml
 
 ### Declare Volume
 
