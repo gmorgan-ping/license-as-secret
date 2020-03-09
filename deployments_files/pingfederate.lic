@@ -6,7 +6,6 @@ Tier=Free
 ExpirationDate=2020-03-22
 EnforcementType=7
 SaasProvisioning=true
-TEST=SAMIR
 WSTrustSTS=true
 OAuth=true
 Generator=WebAPI
