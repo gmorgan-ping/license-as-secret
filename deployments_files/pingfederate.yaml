@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: pingfederate
-        image: pingidentity/pingfederate:edge
+        image: pingidentity/pingfederate:latest
         imagePullPolicy: Always
         envFrom:
         - configMapRef:
@@ -62,9 +62,10 @@ spec:
             cpu: "1"
             memory: 1.5Gi
         volumeMounts:
-          - mountPath: "/opt/in/instance/server/default/conf"
-            name: product-license-volume
-            readOnly: false
+          - name: product-license-volume
+            mountPath: "/opt/in/instance/server/default/conf/pingfederate.lic"
+            subPath: pingfederate.lic
+            readOnly: true
       volumes:
         - name: product-license-volume
           secret:
